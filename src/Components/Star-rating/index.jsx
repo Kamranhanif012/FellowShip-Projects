@@ -5,8 +5,8 @@ import "./style.css";
 
 export default function StarRating({noOfStars = 5}){
     
-    const [Rating, setRating] = useState(0);
-    const [Hover, setHover]= useState(0);
+    const [Rating, setRating] = useState(0)
+    const [Hover, setHover]= useState(0)
 
     function handleClick(getCurrrentIndex){
         console.log(getCurrrentIndex)

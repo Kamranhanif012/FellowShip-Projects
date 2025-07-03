@@ -55,7 +55,7 @@ export default function imageSlider({url, limit = 5, page = 1}) {
     <div className= "container" >
         <BsArrowLeftCircleFill onClick={handlePrevious} className="arrow arrow-left"/>
         {
-            images && images.length > 0 ?  
+            images && images.length > 0 ?   
             images.map((imageItem, index) => (
                 <img 
                 key={imageItem.id}

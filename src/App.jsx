@@ -10,23 +10,24 @@ function App() {
 
 
   return (
-    /*<Randomcolor/>*/
-    /*<StarRating 
-     noOfStars={8}  />*/
+    <>
+    <Randomcolor/>
+    <StarRating 
+     noOfStars={8}  />
 
-    /*<ImageSlider
+    <ImageSlider
       url={'https://picsum.photos/v2/list'} page={"1"} limit={"10"}
     />*/
 
-    /*<LoadMoreData
+    <LoadMoreData
 
     limit='20'
     
-    />*/
+    />
 
     <TreeView  menus={menus}/>
 
-
+</>
 
   )
 }
