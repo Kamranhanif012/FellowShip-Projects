@@ -1,6 +1,7 @@
 .container{
     position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 600px;
@@ -34,7 +35,8 @@
 
 .circle-indicator{
     display: flex;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;
     bottom: 1rem;
 }
 
