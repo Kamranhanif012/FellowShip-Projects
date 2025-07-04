@@ -34,7 +34,7 @@
 
 .circle-indicator{
     display: flex;
-    position: absolute;
+    
     bottom: 1rem;
 }
 
